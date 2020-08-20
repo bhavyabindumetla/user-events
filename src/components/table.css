@@ -1,0 +1,22 @@
+.table-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table {
+  width: 600px;
+  background-color: #d3d5fd;
+  border-collapse: collapse;
+}
+
+th,td {
+  border: 1px solid #0b0b0d;
+  text-align: center;
+  padding: 20px 10px;
+}
+
+td:hover {
+  cursor: pointer;
+}

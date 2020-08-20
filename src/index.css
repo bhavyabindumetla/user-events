@@ -1,0 +1,64 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, #28505d, #368466);
+} */
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+  color: #0b0b0d;
+  font-size: 14px !important;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background: linear-gradient(110deg, #474a56 60%, #0b0b0d 60%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.MuiDialog-paperWidthSm {
+  max-width: 800px !important;
+}
+
+.heading {
+  font-weight: 700 !important;
+  color: #0b0b0d !important;
+}
+
+.dialog-root {
+  width: 650px !important;
+  background: #929aab
+}
+
+.react-datepicker__day--highlighted {
+  border-radius: 0.3rem;
+  background-color: #929aab !important;
+  color: #0b0b0d !important;
+}
+
+.react-datepicker__day--selected {
+  border-radius: 0.3rem;
+  background-color: #0b0b0d !important;
+  color: #929aab !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  border-radius: 0.3rem;
+  background-color: #0b0b0d !important;
+  color: #929aab !important; 
+}
+
+.MuiCircularProgress-colorPrimary {
+  color: #0c0b0e !important;
+}
